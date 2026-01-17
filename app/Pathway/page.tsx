@@ -5,7 +5,7 @@ import paths from "../data/paths";
 const Pathway = () => {
   return (
     <section className="w-full bg-white  mt-20 ">
-      <div className="bg-[linear-gradient(339.36deg,#D7C102_-25.31%,#060606_27.69%,#D7C102_107.88%)]">
+      <div className="bg-[linear-gradient(339.36deg,#D7C102_-25.31%,#060606_27.69%,#D7C102_107.88%)] pb-10">
         <div className="relative max-w-7xl mx-auto aspect-video">
           <Image
             src="/pathway-hero.png"
@@ -39,6 +39,15 @@ const Pathway = () => {
           <PathCard key={path.number} {...path} />
         ))}
       </div>
+      <section className="mt-6">
+        <div className="flex flex-col gap-2 items-center">
+          <p className="text-center">What next?</p>
+          <h2 className="font-bold text-center text-2xl">Built for growth</h2>
+          <p className="text-center max-w-prose leading-relaxed">
+            Each stage serves a purpose in your development.
+          </p>
+        </div>
+      </section>
     </section>
   );
 };
