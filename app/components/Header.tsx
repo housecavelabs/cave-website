@@ -23,13 +23,14 @@ const Header = () => {
               <Link href="/pathway">The Path</Link>
             </li>
             <li className="hover:text-[#EFC738] transition-all duration-300 ease-in-out">
+              <Link href="/about">Schools</Link>
               <Link href="/the-cave">The School</Link>
             </li>
             <li className="hover:text-[#EFC738] transition-all duration-300 ease-in-out">
-              <Link href="/contact">The Infrastructure</Link>
+              <Link href="/contact">Testimonials</Link>
             </li>
             <li className="hover:text-[#EFC738] transition-all duration-300 ease-in-out">
-              <Link href="/contact">The Archive</Link>
+              <Link href="/contact">Archives</Link>
             </li>
           </div>
         </ul>
