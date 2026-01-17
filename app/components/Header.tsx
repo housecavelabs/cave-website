@@ -24,7 +24,6 @@ const Header = () => {
             </li>
             <li className="hover:text-[#EFC738] transition-all duration-300 ease-in-out">
               <Link href="/about">Schools</Link>
-              <Link href="/the-cave">The School</Link>
             </li>
             <li className="hover:text-[#EFC738] transition-all duration-300 ease-in-out">
               <Link href="/contact">Testimonials</Link>
