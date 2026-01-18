@@ -13,10 +13,18 @@ const MastermindCard: React.FC<MastermindCardProps> = ({
   image,
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <Image src={image} alt={name} width={200} height={200} />
-      <h3 className="text-xl font-bold mt-4">{name}</h3>
-      <p className="text-gray-600 mt-2">{role}</p>
+    <div className="border border-[#EBCB4B] rounded-2xl overflow-hidden flex flex-col w-full aspect-4/5 hover:shadow-lg transition-shadow duration-300">
+      <div className="relative flex-1 w-full bg-neutral-900">
+        <Image src={image} alt={name} fill className="object-cover" />
+      </div>
+      <div className="bg-linear-to-b from-[#FFFDF5] to-[#EBCB4B] py-6 px-4 text-center border-t border-[#EBCB4B]/20">
+        <h3 className="text-xl md:text-2xl font-black text-black mb-2 leading-tight">
+          {name}
+        </h3>
+        <p className="text-black/80 text-xs md:text-sm font-medium uppercase tracking-wide">
+          {role}
+        </p>
+      </div>
     </div>
   );
 };

@@ -24,6 +24,11 @@ const masterminds = [
     role: "COO & CTO",
     image: "/ayomide-img.jpg",
   },
+  {
+    name: "Raphael Idemotuk",
+    role: "Dean, Administration",
+    image: "/raphael-img.jpg",
+  },
 ];
 
 export default masterminds;

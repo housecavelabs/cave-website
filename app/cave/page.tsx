@@ -7,6 +7,7 @@ import ValueCard from "../components/ValueCard";
 import valueCards from "../data/values";
 import MastermindCard from "../components/MastermindCard";
 import masterminds from "../data/masterminds";
+import CTA from "../components/CTA";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -211,6 +212,11 @@ const Cave = () => {
           </div>
         </div>
       </div>
+      <CTA
+        title="Ready to join the 1%?"
+        desc="You will take your growth seriously without making it everyone else's problem."
+        btnText="Begin"
+      />
     </section>
   );
 };
