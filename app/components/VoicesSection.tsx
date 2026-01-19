@@ -48,7 +48,7 @@ const VoicesSection = () => {
             </button>
           </div>
 
-          <div className="w-[80vw] flex mx-auto aspect-video bg-[#1A1A1A] rounded-2xl overflow-hidden relative border border-white/10 shadow-2xl">
+          <div className="w-full md:w-[80vw] flex mx-auto aspect-video bg-[#1A1A1A] rounded-2xl overflow-hidden relative border border-white/10 shadow-2xl">
             {isPlaying ? (
               <iframe
                 src={`https://www.youtube.com/embed/${currentVoice.videoId}?autoplay=1`}
@@ -76,11 +76,11 @@ const VoicesSection = () => {
             )}
 
             {!isPlaying && (
-              <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12 max-w-md bg-white p-8 rounded-xl z-20 shadow-lg">
-                <p className="text-black text-sm md:text-base font-medium leading-relaxed mb-6">
+              <div className="absolute bottom-8 left-6 md:bottom-12 md:left-12 max-w-[85%] md:max-w-[400px] bg-white p-6 md:p-8 rounded-xl z-20 shadow-lg">
+                <p className="text-black text-xs md:text-base font-medium leading-relaxed mb-4 md:mb-6">
                   {currentVoice.quote}
                 </p>
-                <h4 className="text-xl font-bold text-black">
+                <h4 className="text-lg md:text-xl font-bold text-black">
                   {currentVoice.author}
                 </h4>
               </div>

@@ -41,17 +41,10 @@ const Footer = () => {
                   className="hover:text-[#EFC738] transition-colors"
                   href="/schools"
                 >
-                  The Schools
+                  Schools
                 </Link>
               </li>
-              <li>
-                <Link
-                  className="hover:text-[#EFC738] transition-colors"
-                  href="/infrastructure"
-                >
-                  The Infrastructure
-                </Link>
-              </li>
+
               <li>
                 <Link
                   className="hover:text-[#EFC738] transition-colors"
@@ -68,39 +61,24 @@ const Footer = () => {
               <li>
                 <Link
                   className="hover:text-[#EFC738] transition-colors"
-                  href="/cave-posts"
+                  href=""
                 >
-                  Cave Posts
+                  Posts
                 </Link>
               </li>
               <li>
                 <Link
                   className="hover:text-[#EFC738] transition-colors"
-                  href="/proofs"
+                  href=""
                 >
                   Proofs
                 </Link>
               </li>
+
               <li>
                 <Link
                   className="hover:text-[#EFC738] transition-colors"
-                  href="/cave-labs"
-                >
-                  Cave Labs
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="hover:text-[#EFC738] transition-colors"
-                  href="/cave-press"
-                >
-                  Cave Press
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="hover:text-[#EFC738] transition-colors"
-                  href="/contact"
+                  href=""
                 >
                   Contact
                 </Link>
@@ -112,7 +90,9 @@ const Footer = () => {
             <ul className="flex text-sm flex-col gap-3 text-gray-300">
               <li>
                 <Link
-                  href="https://www.instagram.com/thecaveofficial/"
+                  href="https://www.instagram.com/thecavecalls?igsh=MXJrNzY0bGE4Yml4cA%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group flex items-center gap-2 transition-all duration-300"
                 >
                   <span className="flex items-center justify-center w-6 h-6 rounded transition-all duration-300 group-hover:bg-[linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)]">
@@ -131,7 +111,9 @@ const Footer = () => {
               <li>
                 <Link
                   className="group flex items-center gap-2 transition-all duration-300"
-                  href="https://www.youtube.com/@thecaveofficial"
+                  href="https://www.youtube.com/@TheCaveCalls"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="flex items-center justify-center w-6 h-6">
                     <FaYoutube

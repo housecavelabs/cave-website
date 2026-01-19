@@ -86,15 +86,22 @@ const SchoolSection = ({
               </ul>
             </div>
 
-            <button
-              className={`mt-4 w-full md:w-max rounded-lg py-4 px-24 font-bold uppercase transition-all ${
-                isDark
-                  ? "bg-[#EBCB4B] text-black hover:bg-yellow-500"
-                  : "bg-[#EBCB4B] text-black hover:bg-yellow-500 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-              }`}
+            <a
+              href="https://wa.link/chewxp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full md:w-max"
             >
-              {cta}
-            </button>
+              <button
+                className={`mt-4 w-full md:w-max rounded-lg py-4 px-24 font-bold uppercase transition-all ${
+                  isDark
+                    ? "bg-[#EBCB4B] text-black hover:bg-yellow-500"
+                    : "bg-[#EBCB4B] text-black hover:bg-yellow-500 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+                }`}
+              >
+                {cta}
+              </button>
+            </a>
           </div>
 
           {/* Image */}

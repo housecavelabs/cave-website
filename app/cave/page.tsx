@@ -21,7 +21,7 @@ const poppins = Poppins({
 
 const Cave = () => {
   return (
-    <section className="max-w-7xl pt-20 text-white relative overflow-hidden">
+    <section className="max-w-7xl mx-auto pt-20 text-white relative overflow-hidden">
       <div className="w-full h-[90vh] relative">
         <Image
           src="/the-cave-hero.jpg"
@@ -58,14 +58,14 @@ const Cave = () => {
       </div>
 
       <div className="bg-black space-y-12 text-white py-7">
-        <div className="px-8">
+        <div className="px-6 md:px-8">
           <h2
             className={`uppercase text-3xl md:text-5xl font-bold ${poppins.className}`}
           >
             We saw the crack
           </h2>
 
-          <div className="px-16 space-y-5 mt-10 tracking-wide leading-relaxed text-center md:text-left max-w-2xl">
+          <div className="space-y-5 mt-10 tracking-wide leading-relaxed text-left md:ml-16 max-w-2xl text-sm md:text-base">
             <p>
               Modern life pulled three things apart that were never meant to be
               separate:{" "}
@@ -81,15 +81,15 @@ const Cave = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-end">
-          <div className="px-8">
+        <div className="flex justify-start md:justify-end px-6 md:px-8">
+          <div>
             <h2
               className={`uppercase text-3xl md:text-5xl font-bold ${poppins.className}`}
             >
               We felt the pressure
             </h2>
 
-            <div className="px-16 space-y-5 mt-10 tracking-wide leading-relaxed text-center md:text-left max-w-2xl">
+            <div className="space-y-5 mt-10 tracking-wide leading-relaxed text-left md:ml-16 max-w-2xl text-sm md:text-base">
               <p>
                 We live in a time of unlimited information and expected
                 confusion. You can learn anything yet most people don't know
@@ -108,14 +108,14 @@ const Cave = () => {
             </div>
           </div>
         </div>
-        <div className="px-8">
+        <div className="px-6 md:px-8">
           <h2
             className={`uppercase text-3xl md:text-5xl font-bold ${poppins.className}`}
           >
             We heard the noise
           </h2>
 
-          <div className="px-16 space-y-5 mt-10 tracking-wide leading-relaxed text-center md:text-left max-w-2xl">
+          <div className="space-y-5 mt-10 tracking-wide leading-relaxed text-left md:ml-16 max-w-2xl text-sm md:text-base">
             <p>
               We are told visibility equals value.{" "}
               <span className="block">
@@ -133,29 +133,27 @@ const Cave = () => {
           </div>
         </div>
         <h2
-          className={`uppercase text-3xl text-center text-[#EBCB4B] md:text-5xl font-bold ${poppins.className}`}
+          className={`uppercase text-3xl text-center text-[#EBCB4B] md:text-5xl font-bold ${poppins.className} mt-8`}
         >
           We emerge to correct
         </h2>
       </div>
-      <div className="bg-white text-black  px-8 flex flex-col items-center justify-center text-center">
-        <div className=" opacity-40 pointer-events-none rounded-full"></div>
-
-        <section className="max-w-4xl relative flex items-center justify-center">
+      <div className="bg-white text-black px-6 md:px-8 flex flex-col items-center justify-center text-center py-16">
+        <section className="max-w-4xl relative flex items-center justify-center w-full">
           <Image
             src="/yellow-bg.png"
             alt="Glowing yellow background"
             width={1000}
             height={600}
-            className="object-contain"
+            className="object-cover md:object-contain min-h-[300px] w-full rounded-2xl"
           />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 md:p-12">
             <h2
-              className={`text-3xl md:text-4xl font-bold tracking-tight mb-6 ${poppins.className}`}
+              className={`text-2xl md:text-4xl font-bold tracking-tight mb-4 md:mb-6 ${poppins.className}`}
             >
               To build for serious growth
             </h2>
-            <p className="text-gray-900 text-sm md:text-base leading-relaxed max-w-2xl mx-auto font-medium">
+            <p className="text-gray-900 text-xs md:text-base leading-relaxed max-w-lg md:max-w-2xl mx-auto font-medium">
               The Cave operates as a philosophical institution, not a network.
               It demands rigor from those who enter and rewards discipline with
               transformation.
@@ -165,15 +163,15 @@ const Cave = () => {
       </div>
       <Tabs />
 
-      <div className="bg-black py-24 text-white  px-8 mt-20">
+      <div className="bg-black py-16 md:py-24 text-white px-6 md:px-8 mt-10 md:mt-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-20 gap-6 md:gap-8">
             <h2
-              className={`text-4xl md:text-6xl font-bold tracking-tight text-[#EBCB4B] leading-[1.1] max-w-2xl ${poppins.className}`}
+              className={`text-3xl md:text-6xl font-bold tracking-tight text-[#EBCB4B] leading-[1.1] max-w-2xl ${poppins.className}`}
             >
               Built on first principles, not best practices.
             </h2>
-            <p className="text-gray-300 text-sm md:text-lg max-w-md font-medium text-right md:text-right leading-relaxed">
+            <p className="text-gray-300 text-sm md:text-lg max-w-md font-medium text-left md:text-right leading-relaxed">
               Every element of The Cave derives from fundamental truths about
               skill acquisition, knowledge transfer, and sustainable growth.
             </p>
@@ -192,15 +190,15 @@ const Cave = () => {
         </div>
       </div>
 
-      <div className="bg-white py-24 text-black  px-8">
+      <div className="bg-white py-16 md:py-24 text-black px-6 md:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <h2
-            className={`text-5xl md:text-7xl font-bold text-[#EBCB4B] mb-20 ${poppins.className}`}
+            className={`text-3xl md:text-7xl font-bold text-[#EBCB4B] mb-12 md:mb-20 ${poppins.className}`}
           >
             Meet the Master minds
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {masterminds.map((mastermind) => (
               <MastermindCard
                 key={mastermind.name}

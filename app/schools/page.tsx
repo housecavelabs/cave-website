@@ -7,30 +7,36 @@ import SchoolSection from "../components/SchoolSection";
 const Schools = () => {
   return (
     <main className="w-full">
-      <section className="bg-[#0A0A0A] text-white py-32 px-6 text-center relative overflow-hidden">
-        <div className="max-w-5xl mx-auto mt-16 relative">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] md:w-[600px] h-[200px] bg-[#EBCB4B] opacity-25 blur-[90px] pointer-events-none z-0"></div>
+      <section className="bg-[#0A0A0A] text-white py-20 px-6 text-center relative overflow-hidden">
+        <div className="max-w-5xl mx-auto mt-12 md:mt-16 relative">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] md:w-[600px] md:h-[200px] bg-[#EBCB4B] opacity-25 blur-[60px] md:blur-[90px] pointer-events-none z-0"></div>
           <div className="relative z-10">
-            <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tighter uppercase">
+            <h1 className="text-4xl md:text-7xl font-black mb-6 md:mb-8 leading-[1.1] tracking-tighter uppercase">
               3 Schools. 3 Months. <br />
               <span className="text-white">A Lifetime Impact.</span>
             </h1>
-            <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 leading-relaxed">
+            <p className="text-gray-400 text-base md:text-xl max-w-3xl mx-auto mb-8 md:mb-12 leading-relaxed">
               Learn Skills that actually change your life. Selling School helps
               you earn. Healing School helps you stay stable. Impact School
               helps you grow with integrity.
             </p>
-            <button className="bg-[#EBCB4B] text-black font-bold py-4 px-16 rounded-sm uppercase hover:bg-yellow-500 transition-all shadow-[0_0_20px_rgba(235,203,75,0.2)]">
-              Enroll
-            </button>
+            <a
+              href="https://wa.link/chewxp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#EBCB4B] text-black font-bold py-3 md:py-4 px-12 md:px-16 rounded-sm uppercase hover:bg-yellow-500 transition-all shadow-[0_0_20px_rgba(235,203,75,0.2)] text-sm md:text-base cursor-pointer">
+                Enroll
+              </button>
+            </a>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#F8F8F8] text-black py-32 px-6">
+      <section className="bg-[#F8F8F8] text-black py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tighter">
+          <div className="text-center mb-16 md:mb-20">
+            <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tighter">
               Three disciplines for serious <br /> practitioners
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">

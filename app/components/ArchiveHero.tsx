@@ -34,12 +34,12 @@ const ArchiveHero = ({ slides, interval = 5000 }: any) => {
 
           <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
 
-          <div className="absolute bottom-10 right-6 md:right-20 md:bottom-20">
-            <div className="bg-linear-to-r from-[#EBCB4B] to-[#FFFDF5] px-8 py-5 rounded-xl shadow-xl">
-              <h1 className="text-xl md:text-2xl font-black text-black">
+          <div className="absolute bottom-10 left-6 right-6 md:left-auto md:right-20 md:bottom-20">
+            <div className="bg-linear-to-r from-[#EBCB4B] to-[#FFFDF5] px-6 py-4 md:px-8 md:py-5 rounded-xl shadow-xl max-w-sm md:max-w-none">
+              <h1 className="text-lg md:text-2xl font-black text-black uppercase">
                 {slide.name}
               </h1>
-              <p className="text-sm md:text-base max-w-[200px] text-wrap font-semibold text-black/80">
+              <p className="text-xs md:text-base font-semibold text-black/80">
                 {slide.subtitle}
               </p>
             </div>

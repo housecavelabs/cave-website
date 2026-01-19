@@ -46,6 +46,7 @@ const Page = () => {
         title="Ready to join the 1%?"
         desc="You will take your growth seriously without making it everyone else's problem."
         btnText="Begin"
+        btnText2="Book a Call"
       />
     </main>
   );

@@ -37,12 +37,18 @@ const PathCard = ({
           <p className="font-semibold">{header}</p>
           <h2 className="text-3xl md:text-5xl font-bold">{description}</h2>
           <p>{subtitle}</p>
-          <button className="bg-[#EFC738] w-fit hover:opacity-80 transition-all duration-300 ease-in-out cursor-pointer text-black px-8 md:px-16 rounded-lg py-2 mt-2 md:mt-4">
-            Begin
-          </button>
+          <a
+            href="https://wa.link/chewxp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-[#EFC738] w-fit hover:opacity-80 transition-all duration-300 ease-in-out cursor-pointer text-black px-8 md:px-16 rounded-lg py-2 mt-2 md:mt-4">
+              Begin
+            </button>
+          </a>
         </div>
 
-        <div className="flex-1 relative w-full min-h-[400px] md:min-h-[450px] lg:min-h-[550px]">
+        <div className="flex-1 relative w-full min-h-[250px] md:min-h-[450px] lg:min-h-[550px]">
           <Image src={image} alt="Pathway Image" fill className="object-top" />
         </div>
       </div>
