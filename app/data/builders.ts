@@ -65,7 +65,7 @@ export const builders = [
   {
     id: 6,
     name: "Olúwájùmílo Cecilia (TheGlobalCeci)",
-    role: ["Featured on TechCabal"],
+    role: ["Mentor, The Cave", "Founder, The Clan"],
     metric: "5000+",
     metricLabel: "people empowered",
     image: "/theglobalcecil-img.jpg",
