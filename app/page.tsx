@@ -135,7 +135,7 @@ const HomePage = () => {
         <h2
           className={`uppercase text-3xl text-center text-[#EBCB4B] md:text-5xl font-bold ${poppins.className} mt-8`}
         >
-          We emerge to correct
+          We emerged to correct
         </h2>
       </div>
       <div className="bg-white text-black px-6 md:px-8 flex flex-col items-center justify-center text-center py-16">

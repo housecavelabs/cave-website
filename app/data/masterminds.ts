@@ -22,7 +22,7 @@ const masterminds = [
 
   {
     name: "Ayomide Himothy",
-    role: "COO & CTO",
+    role: "COO/CTO",
     image: "/ayomide-img.jpeg",
   },
   {
@@ -33,7 +33,7 @@ const masterminds = [
   {
     name: "Victoria",
     role: "Cave Press Lead",
-    image: "/victoria-img.jpg",
+    image: "/victoria-img.png",
   },
 ];
 

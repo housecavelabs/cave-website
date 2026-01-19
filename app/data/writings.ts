@@ -22,7 +22,7 @@ const writings = [
     url: "https://open.substack.com/pub/olaoluwawhitefire/p/the-multiplication-of-stupidity-in?utm_source=share&utm_medium=android&r=2ly6d7",
     excerpt: "",
     author: "WhiteFire",
-    role: "Head of Marketing & Distribution",
+    role: "Head of Partnerships & Distribution",
   },
   {
     id: 4,
