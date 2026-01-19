@@ -21,10 +21,9 @@ export default function InstagramLazyEmbed() {
   }, [loadEmbed]);
 
   return (
-    <div className="relative w-full max-w-[1440px] mx-auto h-[50vh] md:h-[85vh] overflow-hidden group">
+    <div className="relative w-full max-w-[1440px] mx-auto h-[50vh] md:h-[90vh] overflow-hidden group">
       {!loadEmbed ? (
         <>
-          {/* Static Thumbnail */}
           <Image
             src="/pathway-hero.png"
             alt="Instagram Reel Preview"
@@ -52,7 +51,6 @@ export default function InstagramLazyEmbed() {
           </div>
         </>
       ) : (
-        /* Instagram Embed (loaded on click) */
         <blockquote
           className="instagram-media"
           data-instgrm-permalink="https://www.instagram.com/reel/DLNibCJNTxx/"
