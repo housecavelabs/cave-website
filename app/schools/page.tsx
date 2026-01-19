@@ -20,15 +20,6 @@ const Schools = () => {
               you earn. Healing School helps you stay stable. Impact School
               helps you grow with integrity.
             </p>
-            <a
-              href="https://wa.link/chewxp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="bg-[#EBCB4B] text-black font-bold py-3 md:py-4 px-12 md:px-16 rounded-sm uppercase hover:bg-yellow-500 transition-all shadow-[0_0_20px_rgba(235,203,75,0.2)] text-sm md:text-base cursor-pointer">
-                Enroll
-              </button>
-            </a>
           </div>
         </div>
       </section>

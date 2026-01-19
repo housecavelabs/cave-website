@@ -76,19 +76,16 @@ const PathCard = ({
             rel="noopener noreferrer"
             className="mt-4"
           >
-            <button className="bg-[#EFC738] w-full md:w-fit font-bold hover:opacity-80 transition-all duration-300 ease-in-out cursor-pointer text-black px-12 rounded-lg py-4">
-              {number === "01"
-                ? "Begin"
-                : number === "02"
-                  ? "Start"
-                  : number === "03"
-                    ? "Ready"
-                    : number === "04"
-                      ? "You game"
-                      : number === "05"
-                        ? "Enter"
-                        : ""}
-            </button>
+            {number === "01" && (
+              <button className="bg-[#EFC738] w-full md:w-fit font-bold hover:opacity-80 transition-all duration-300 ease-in-out cursor-pointer text-black px-12 rounded-lg py-4">
+                Begin
+              </button>
+            )}
+            {number === "02" && (
+              <button className="bg-[#EFC738] w-full md:w-fit font-bold hover:opacity-80 transition-all duration-300 ease-in-out cursor-pointer text-black px-12 rounded-lg py-4">
+                Join
+              </button>
+            )}
           </a>
         </div>
 

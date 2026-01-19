@@ -74,15 +74,6 @@ const Pathway = () => {
                   <p className="text-sm max-w-md">
                     Advanced training meets practical application in real time
                   </p>
-                  <a
-                    href="https://wa.link/chewxp"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="w-fit border border-white px-8 py-3 hover:bg-white cursor-pointer hover:text-black transition-all">
-                      Enroll
-                    </button>
-                  </a>
                 </div>
               </div>
 
