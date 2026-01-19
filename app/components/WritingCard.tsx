@@ -91,7 +91,7 @@ export default function WritingCard({
       href={getSubstackLink()}
       target="_blank"
       rel="noopener noreferrer"
-      className={`bg-white rounded-xl p-6 border transition-all duration-300 flex flex-col h-full hover:no-underline group ${
+      className={`bg-white rounded-xl p-6 border transition-all duration-300 flex border-b-6 border-r-6 border-black flex-col h-full hover:no-underline group ${
         isFeatured
           ? "border-[#EBCB4B] shadow-[0_0_15px_rgba(235,203,75,0.15)]"
           : "border-gray-200 hover:border-[#EBCB4B] hover:shadow-lg"
