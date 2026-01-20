@@ -7,7 +7,7 @@ import SchoolSection from "../components/SchoolSection";
 const Schools = () => {
   return (
     <main className="w-full">
-      <section className="bg-[#0A0A0A] text-white py-20 px-6 text-center relative overflow-hidden">
+      <section className="bg-[#0A0A0A] md:flex md:flex-col md:space-y-5 md:justify-center md:min-h-screen text-white py-20 px-6 text-center relative overflow-hidden">
         <div className="max-w-5xl mx-auto mt-12 md:mt-16 relative">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] md:w-[600px] md:h-[200px] bg-[#EBCB4B] opacity-25 blur-[60px] md:blur-[90px] pointer-events-none z-0"></div>
           <div className="relative z-10">
