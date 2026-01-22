@@ -64,7 +64,7 @@ export const builders = [
   },
   {
     id: 6,
-    name: "Olúwájùmílo Cecilia (TheGlobalCeci)",
+    name: "Olúwájùmílo Cecilia",
     role: ["Mentor, The Cave", "Founder, Porter's Clan"],
     metric: "5000+",
     metricLabel: "people empowered",
@@ -78,7 +78,7 @@ export const builders = [
     id: 7,
     name: "Rico Maz",
     role: ["Song Writer", "Record Producer"],
-    metric: "500k",
+    metric: "500k+",
     metricLabel: "Streams",
     image: "/rico-img.jpeg",
     description: [
