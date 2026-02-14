@@ -24,31 +24,61 @@ export const metadata: Metadata = {
     default: "The Cave",
     template: "%s | The Cave",
   },
-  description: "Home of the 1%",
+  description:
+    "A community for the 1%. Training ground, culture, and home for impact-driven visionaries and change architects.",
+  keywords: [
+    "The Cave",
+    "Elite Performance",
+    "Visionaries",
+    "Impact Driven",
+    "Mastermind",
+    "Discipline",
+    "Growth",
+    "House Cave",
+  ],
 
-  metadataBase: new URL("https://thecavecalls.com"),
+  alternates: {
+    canonical: "https://housecave.org",
+  },
+
+  metadataBase: new URL("https://housecave.org"),
 
   openGraph: {
     title: "The Cave",
-    description: "Home of the 1%",
-    url: "https://thecavecalls.com",
+    description:
+      "A community for the 1%. Training ground, culture, and home for impact-driven visionaries.",
+    url: "https://housecave.org",
     siteName: "The Cave",
     images: [
       {
         url: "/icon.png",
         width: 1200,
         height: 630,
-        alt: "The Cave",
+        alt: "The Cave Logo",
       },
     ],
+    locale: "en_US",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
     title: "The Cave",
-    description: "Home of the 1%",
+    description: "A community for the 1%. Training ground for visionaries.",
     images: ["/icon.png"],
+    creator: "@TheCave",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

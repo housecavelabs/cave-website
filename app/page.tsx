@@ -22,11 +22,11 @@ const poppins = Poppins({
 
 const HomePage = () => {
   return (
-    <section className="mx-auto pt-20 text-white relative overflow-hidden">
-      <div className="w-full h-[90vh] relative">
+    <main className="mx-auto pt-20 text-white relative overflow-hidden">
+      <section className="w-full h-[90vh] relative">
         <Image
           src="/the-cave-hero.jpg"
-          alt="The Cave Hero"
+          alt="Atmospheric entrance to The Cave - Home of the 1%"
           fill
           priority
           className="object-cover"
@@ -51,14 +51,14 @@ const HomePage = () => {
               the visionaries, and the change architects. This is home for those
               who are not here to merely exist, but to shape the world.
             </p>
-            <h2 className="text-2xl text-[#EBCB4B] md:text-4xl uppercase whitespace-nowrap font-bold">
+            <p className="text-2xl text-[#EBCB4B] md:text-4xl uppercase whitespace-nowrap font-bold">
               Home of the 1%
-            </h2>
+            </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="bg-black space-y-12 text-white py-7">
+      <section className="bg-black space-y-12 text-white py-7">
         <div className="px-6 md:px-8">
           <h2
             className={`uppercase text-3xl md:text-5xl font-bold ${poppins.className}`}
@@ -83,14 +83,14 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex justify-start md:justify-end px-6 md:px-8">
-          <div>
+          <div className="max-w-4xl w-full flex flex-col items-start md:items-end">
             <h2
               className={`uppercase text-3xl md:text-5xl font-bold ${poppins.className}`}
             >
               We felt the pressure
             </h2>
 
-            <div className="space-y-5 mt-10 tracking-wide leading-relaxed text-left md:ml-16 max-w-2xl text-sm md:text-base">
+            <div className="space-y-5 mt-10 tracking-wide leading-relaxed text-left md:ml-16 md:mr-16 max-w-2xl text-sm md:text-base">
               <p>
                 We live in a time of unlimited information and expected
                 confusion. You can learn anything yet most people don't know
@@ -138,12 +138,12 @@ const HomePage = () => {
         >
           We emerged to correct
         </h2>
-      </div>
-      <div className="bg-white text-black px-6 md:px-8 flex flex-col items-center justify-center text-center py-16">
-        <section className="max-w-4xl relative flex items-center justify-center w-full">
+      </section>
+      <section className="bg-white text-black px-6 md:px-8 flex flex-col items-center justify-center text-center py-16">
+        <div className="max-w-4xl relative flex items-center justify-center w-full">
           <Image
             src="/yellow-bg.png"
-            alt="Glowing yellow background"
+            alt="Golden glow background representing growth and transformation"
             width={1000}
             height={600}
             className="object-cover md:object-contain min-h-[300px] w-full rounded-2xl"
@@ -160,11 +160,11 @@ const HomePage = () => {
               transformation.
             </p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <Tabs />
 
-      <div className="bg-black py-16 md:py-24 text-white px-6 md:px-8 mt-10 md:mt-20">
+      <section className="bg-black py-16 md:py-24 text-white px-6 md:px-8 mt-10 md:mt-20">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-20 gap-6 md:gap-8">
             <h2
@@ -189,9 +189,9 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="bg-white py-16 md:py-24 text-black px-6 md:px-8">
+      <section className="bg-white py-16 md:py-24 text-black px-6 md:px-8">
         <div className="max-w-6xl mx-auto text-center">
           <h2
             className={`text-3xl md:text-7xl font-bold text-[#EBCB4B] mb-12 md:mb-20 ${poppins.className}`}
@@ -210,13 +210,13 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-      </div>
+      </section>
       <CTA
         title="Ready to join the 1%?"
         desc="You will take your growth seriously without making it everyone else's problem."
         btnText="Begin"
       />
-    </section>
+    </main>
   );
 };
 
