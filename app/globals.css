@@ -21,3 +21,18 @@
 .animate-scroll {
   animation: scroll 20s linear infinite;
 }
+
+.bg-obsessed-text {
+  background-image: url("/obsessed-text.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cave-labs-hero-bg {
+  background-image:
+    linear-gradient(to bottom, #00000056, #00000056), url("/cave-labs-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
