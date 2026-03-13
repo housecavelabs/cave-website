@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
 import { Roboto_Mono } from "next/font/google";
-import Footer from "./components/Footer";
+import LayoutWrapper from "../components/LayoutWrapper";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -19,6 +18,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: {
     default: "The Cave",
@@ -36,13 +36,10 @@ export const metadata: Metadata = {
     "Growth",
     "House Cave",
   ],
-
   alternates: {
     canonical: "https://housecave.org",
   },
-
   metadataBase: new URL("https://housecave.org"),
-
   openGraph: {
     title: "The Cave",
     description:
@@ -60,7 +57,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "The Cave",
@@ -68,7 +64,6 @@ export const metadata: Metadata = {
     images: ["/icon.png"],
     creator: "@TheCave",
   },
-
   robots: {
     index: true,
     follow: true,
@@ -92,9 +87,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.className} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
