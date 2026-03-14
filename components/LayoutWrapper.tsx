@@ -12,7 +12,7 @@ export default function LayoutWrapper({
   const pathname = usePathname();
 
   // Hide global header/footer on the landing page
-  const isLandingPage = pathname === "/landingpage";
+  const isLandingPage = pathname === "/cave-labs";
 
   return (
     <>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CaveLabsContactForm from "../components/CaveLabsContactForm";
+import CaveLabsContactForm from "@/components/CaveLabsContactForm";
 
 const CaveLabsPage = () => {
   return (
