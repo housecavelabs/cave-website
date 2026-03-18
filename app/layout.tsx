@@ -4,6 +4,13 @@ import "./globals.css";
 import Header from "./components/Header";
 import { Roboto_Mono } from "next/font/google";
 import Footer from "./components/Footer";
+import { Hepta_Slab } from "next/font/google"
+
+const heptaSlab = Hepta_Slab({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-hepta-slab",
+});
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
@@ -89,8 +96,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.className} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${robotoMono.className} ${heptaSlab.variable} antialiased`}
       >
         <Header />
         {children}
