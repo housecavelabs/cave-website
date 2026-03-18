@@ -32,15 +32,12 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── WHO WE ARE ── */}
             <section className="relative px-[80px] py-[134px] bg-[#060606] overflow-hidden" style={{ minHeight: '1220px' }}>
                 <div className="max-w-[1440px] mx-auto">
                     <div className="grid md:grid-cols-2 gap-12 items-start">
 
-                        {/* Left content */}
                         <div className="flex flex-col gap-[48px] max-w-[586px]">
 
-                            {/* Label + Heading */}
                             <div className="flex flex-col gap-[16px]">
                                 <p className="font-sans font-bold text-[20px] leading-[1.5] text-white uppercase tracking-[0.3em]">
                                     Who we are
@@ -122,11 +119,9 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── THREE ARMS OF IMPACT ── */}
             <section className="bg-[#060606] px-[80px] py-[134px]">
                 <div className="max-w-[1280px] mx-auto flex flex-col gap-[200px]">
 
-                    {/* Section Header */}
                     <div className="flex flex-col gap-[16px]">
                         <p className="font-sans font-semibold text-[16px] leading-[1.5] text-white uppercase tracking-[0.3em]">
                             The Cave Group
@@ -136,7 +131,6 @@ export default function LandingPage() {
                         </h2>
                     </div>
 
-                    {/* Arm 01 */}
                     <div className="flex justify-between items-center w-full">
                         <div className="flex flex-col gap-[48px] w-[593px]">
                             <div className="px-[32px] border-l-2 border-[#EFC738]">
@@ -170,7 +164,6 @@ export default function LandingPage() {
                         </div>
                     </div>
 
-                    {/* Arm 02 */}
                     <div className="flex justify-between items-center w-full gap-[32px]">
                         <div className="w-[688px] h-[688px] rounded-2xl overflow-hidden">
                             <img
@@ -204,7 +197,6 @@ export default function LandingPage() {
                         </div>
                     </div>
 
-                    {/* Arm 03 */}
                     <div className="flex justify-between items-center w-full">
                         <div className="flex flex-col gap-[48px] w-[593px]">
                             <div className="px-[32px] border-l-2 border-[#EFC738]">
@@ -241,7 +233,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── WHAT WE DO ── */}
             <section className="relative bg-[#060606] px-[80px] py-[134px] overflow-hidden">
 
                 <div className="relative z-10 max-w-[1280px] mx-auto flex flex-col gap-[48px]">
@@ -294,7 +285,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── QUOTE BREAK ── */}
             <section className="bg-white py-[60px] px-[80px] text-center relative overflow-hidden">
                 <div className="max-w-[1280px] mx-auto relative z-10">
                     <h3 className="font-['Hepta_Slab'] font-bold text-[40px] leading-[1.5] text-center max-w-[659px] mx-auto">
@@ -305,7 +295,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── OUR APPROACH ── */}
             <section className="relative bg-[#060606] px-[80px] py-[138px] overflow-hidden">
 
                 <div className="relative z-10 max-w-[1280px] mx-auto grid grid-cols-12 gap-16">
@@ -346,7 +335,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── WHY WORK WITH US ── */}
             <section className="relative bg-[#060606] px-[80px] py-[134px] overflow-hidden">
                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1200px] h-[600px] bg-[#D0BD21]/40 blur-[180px] pointer-events-none rounded-full" />
 
@@ -388,12 +376,10 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* ── CONTACT ── */}
             <section className="relative bg-[#0F0F0F] px-[80px] py-[152px] overflow-hidden">
 
                 <div className="relative z-10 max-w-[1280px] mx-auto grid grid-cols-2 gap-20">
 
-                    {/* Left */}
                     <div className="flex flex-col gap-[48px] max-w-[568px]">
                         <div className="flex flex-col gap-[16px]">
                             <p className="font-sans font-semibold text-[16px] leading-[1.5] text-white uppercase">
@@ -417,7 +403,6 @@ export default function LandingPage() {
                         </div>
                     </div>
 
-                    {/* Right - Form */}
                     <form className="flex flex-col gap-[59px] max-w-[590px]">
                         <div className="flex gap-[0px] justify-between">
                             <div className="flex flex-col gap-[33px] w-[295px]">
